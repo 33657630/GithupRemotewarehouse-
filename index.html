@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    对已经提交的文件进行修改
+    目前，index.html文件已经被Git跟踪，并且工作区和Git仓库中的index.html文件内容保持一致。当我们
+    修改了工作区中index.html的内容之后，再次运行git status 和 git status-s命令
+
+    $ git status
+    On branch master
+    Changes not staged for commit:
+    (use "git add <file>..." to update what will be committed)
+        (use "git restore <file>..." to discard changes in working directory)
+            modified: index.html
+
+            no changes added to commit (use "git add" and/or "git commit -a")
+
+文件index.html 出現在Changes not staged for commit 這行下面，説明已被跟蹤文件的内容發生變化，
+但還沒有放到暫存區.
+
+
+</body>
+
+</html>
